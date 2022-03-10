@@ -56,11 +56,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [2] = LAYOUT_split_3x5_3(
   //,---------------------------------------------------.                    ,--------------------------------------------.
-      KC_EXLM,   KC_AT, KC_HASH,  KC_DLR,        KC_PERC,                      KC_CIRC, KC_AMPR, KC_ASTR, KC_MINS, KC_PLUS,
+      KC_EXLM,   KC_AT, KC_HASH,  KC_DLR,        KC_PERC,                      KC_CIRC, KC_AMPR, KC_ASTR,  KC_EQL, XXXXXXX,
   //|--------+--------+--------+--------+---------------|                    |--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, KC_LPRN, KC_RPRN,        KC_UNDS,                       KC_EQL, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC,
+      XXXXXXX, XXXXXXX, KC_LPRN, KC_RPRN,        KC_UNDS,                      KC_MINS, KC_LCBR, KC_RCBR, KC_LBRC, KC_RBRC,
   //|--------+--------+--------+--------+---------------|                    |--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,        KC_TILD,                       KC_GRV, KC_QUOT, KC_DQUO, KC_PIPE, KC_BSLS,
+      XXXXXXX, XXXXXXX, XXXXXXX,  KC_GRV,        KC_TILD,                      KC_PLUS, KC_QUOT, KC_DQUO, KC_PIPE, KC_BSLS,
   //|--------+--------+--------+--------+---------------+--------|  |--------+--------+--------+--------+--------+--------|
                                  KC_LGUI, LT(3, KC_BSPC), KC_LCTL,    KC_LSFT, _______, KC_LALT
                              //`---------------------------------'  `--------------------------'
