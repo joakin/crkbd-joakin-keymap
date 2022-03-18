@@ -28,10 +28,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+// Useful if using MT and LT.
 // #define TAPPING_TERM 200
-#define IGNORE_MOD_TAP_INTERRUPT
-#define PERMISSIVE_HOLD_PER_KEY
-#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+// #define IGNORE_MOD_TAP_INTERRUPT
+// #define PERMISSIVE_HOLD_PER_KEY
+// #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
 // Send the the original key if after holding nothing else is pressed
 #define RETRO_TAPPING_PER_KEY
