@@ -36,6 +36,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Send the the original key if after holding nothing else is pressed
 #define RETRO_TAPPING_PER_KEY
 
+#define USB_MAX_POWER_CONSUMPTION 100
+
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
     #define RGBLIGHT_EFFECT_RAINBOW_MOOD
