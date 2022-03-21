@@ -26,9 +26,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|                           |--------+--------+--------+--------+--------|
          KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                                KC_H,    KC_J,    KC_K,    KC_L,  KC_ENT,
   //|--------+--------+--------+--------+--------|                           |--------+--------+--------+--------+--------|
-         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                                KC_N,    KC_M, KC_LGUI, KC_LALT,  KC_TAB,
+         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                                KC_N,    KC_M,  KC_TAB, OSM(MOD_LGUI), OSM(MOD_LALT),
   //|--------+--------+--------+--------+--------+---------------|  |--------+--------+--------+--------+--------+--------|
-                                  OSL(1), KC_BSPC,  CTL_T(KC_ESC),    KC_LSFT,  KC_SPC,  OSL(2)
+                                  OSL(1), KC_BSPC,  CTL_T(KC_ESC),     KC_SPC, OSM(MOD_LSFT), OSL(2)
                              //`---------------------------------'  `--------------------------'
 //  LT(1) LT(2)
 //  KC_ESC
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------|
         KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_DOT,                         KC_0,    KC_1,    KC_2,    KC_3,  KC_EQL,
   //|--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------|
-                                 _______, KC_LGUI, KC_LCTL,    KC_LSFT, KC_LALT,  OSL(3)
+                                 _______, KC_LGUI, KC_LCTL,    KC_LSFT, KC_LALT,   MO(3)
                              //`--------------------------'  `--------------------------'
   ),
 
@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+---------|                    |--------+--------+--------+--------+--------|
       KC_BSLS, KC_PIPE, KC_DQUO,  KC_GRV,  KC_TILD,                      KC_DQUO, KC_QUOT, KC_COMM,  KC_DOT, KC_SLSH,
   //|--------+--------+--------+--------+---------+--------|  |--------+--------+--------+--------+--------+--------|
-                                 OSL(3),   KC_LGUI, KC_LCTL,    KC_LSFT, KC_LALT, _______
+                                   MO(3),  KC_LGUI, KC_LCTL,    KC_LSFT, KC_LALT, _______
                              //`---------------------------'  `--------------------------'
   ),
 // Activated with Shift:
