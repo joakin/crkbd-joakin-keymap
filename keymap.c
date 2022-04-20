@@ -58,11 +58,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_split_3x5_3(
   //,--------------------------------------------------.                                ,--------------------------------------------------.
-      XXXXXXX, KC_BTN2, KC_MS_U, KC_BTN1,       KC_WH_U,                                        XXXXXXX, KC_PGUP,   KC_UP, KC_HOME, XXXXXXX,
+      XXXXXXX, KC_BTN2, KC_MS_U, KC_BTN1,       KC_WH_U,                                        XXXXXXX, KC_PGUP, KC_PGDN, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------------|                                |--------------+--------+--------+--------+--------|
-      KC_ACL0, KC_MS_L, KC_MS_D, KC_MS_R,       KC_WH_D,                                        XXXXXXX, KC_LEFT, KC_DOWN,KC_RIGHT, XXXXXXX,
+      KC_ACL0, KC_MS_L, KC_MS_D, KC_MS_R,       KC_WH_D,                                        KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
   //|--------+--------+--------+--------+--------------|                                |--------------+--------+--------+--------+--------|
-      XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2,       XXXXXXX,                                        XXXXXXX, KC_PGDN, XXXXXXX,  KC_END, XXXXXXX,
+      XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2,       XXXXXXX,                                        XXXXXXX, KC_HOME,  KC_END, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------------+--------------|  |--------------+--------------+--------+--------+--------+--------|
                                  _______, OSM(MOD_LALT), OSM(MOD_LCTL),    OSM(MOD_LGUI), OSM(MOD_LSFT), _______
                              //`--------------------------------------'  `--------------------------------------'
