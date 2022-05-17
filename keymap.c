@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1,   KC_F2,   KC_F3,   KC_F4, XXXXXXX,       KC_0,    KC_1,    KC_2,    KC_3, XXXXXXX,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-            OSM(MOD_LSFT), _______, OSM(MOD_LCTL),   OSM(MOD_LGUI), MO(3), OSM(MOD_LALT)
+                  OSM(MOD_LSFT), _______, KC_LCTL,   KC_LGUI, MO(3), KC_LALT
   ),
 
   [2] = LAYOUT_split_3x5_3(
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_BSLS, KC_PIPE,   KC_LT,   KC_GT, KC_TILD,    KC_DQUO, KC_QUOT,  KC_GRV, KC_QUES, KC_SLSH,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-              OSM(MOD_LSFT), MO(3), OSM(MOD_LCTL),   OSM(MOD_LGUI), _______, OSM(MOD_LALT)
+                    OSM(MOD_LSFT), MO(3), KC_LCTL,   KC_LGUI, _______, KC_LALT
   ),
 
   [3] = LAYOUT_split_3x5_3(
@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX,    XXXXXXX, KC_HOME,  KC_END, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-            OSM(MOD_LSFT), _______, OSM(MOD_LCTL),   OSM(MOD_LGUI), _______, OSM(MOD_LALT)
+                  OSM(MOD_LSFT), _______, KC_LCTL,   KC_LGUI, _______, KC_LALT
   )
 };
 
