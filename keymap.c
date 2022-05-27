@@ -26,22 +26,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
          KC_A,    KC_S,    KC_D,    KC_F,    KC_G,       KC_H,    KC_J,    KC_K,    KC_L,  KC_ENT,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_N,    KC_M, KC_COMM,  KC_DOT,  KC_TAB,
+         KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_N,    KC_M, KC_COMM,  KC_DOT, OSM(MOD_LSFT),
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-             OSM(MOD_LSFT),  MO(1), CTL_T(KC_ESC),     KC_SPC,   MO(2), KC_BSPC
+              OSM(MOD_LALT), MO(1), CTL_T(KC_ESC),     KC_SPC,   LT(2, KC_TAB), OSM(MOD_LGUI)
   ),
 
   [1] = LAYOUT_split_3x5_3(
   //,--------------------------------------------.  ,--------------------------------------------.
-        KC_F9,  KC_F10,  KC_F11,  KC_F12, XXXXXXX,    XXXXXXX,    KC_7,    KC_8,    KC_9, KC_BSPC,
+        KC_F9,  KC_F10,  KC_F11,  KC_F12, XXXXXXX,    XXXXXXX,    KC_7,    KC_8,    KC_9,  KC_DEL,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-        KC_F5,   KC_F6,   KC_F7,   KC_F8, XXXXXXX,    XXXXXXX,    KC_4,    KC_5,    KC_6,  KC_DEL,
+        KC_F5,   KC_F6,   KC_F7,   KC_F8, XXXXXXX,    XXXXXXX,    KC_4,    KC_5,    KC_6, KC_BSPC,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-        KC_F1,   KC_F2,   KC_F3,   KC_F4, XXXXXXX,       KC_0,    KC_1,    KC_2,    KC_3,  KC_TAB,
+        KC_F1,   KC_F2,   KC_F3,   KC_F4, XXXXXXX,       KC_0,    KC_1,    KC_2,    KC_3, OSM(MOD_LSFT),
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-            OSM(MOD_LSFT), _______, OSM(MOD_LCTL),   OSM(MOD_LGUI), MO(3), OSM(MOD_LALT)
+            OSM(MOD_LALT), _______, OSM(MOD_LCTL),     KC_SPC,   MO(3), OSM(MOD_LGUI)
   ),
 
   [2] = LAYOUT_split_3x5_3(
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_BSLS, KC_PIPE,   KC_LT,   KC_GT, KC_TILD,    KC_DQUO, KC_QUOT,  KC_GRV, KC_QUES, KC_SLSH,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-              OSM(MOD_LSFT), MO(3), OSM(MOD_LCTL),   OSM(MOD_LGUI), _______, OSM(MOD_LALT)
+              OSM(MOD_LALT), MO(3), OSM(MOD_LCTL),     KC_SPC, _______, OSM(MOD_LGUI)
   ),
 
   [3] = LAYOUT_split_3x5_3(
@@ -62,10 +62,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
       KC_ACL0, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,    KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, XXXXXXX,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-      XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX,    XXXXXXX, KC_HOME,  KC_END, XXXXXXX, XXXXXXX,
+      XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX,    XXXXXXX, KC_HOME,  KC_END, XXXXXXX, OSM(MOD_LSFT),
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
-            OSM(MOD_LSFT), _______, OSM(MOD_LCTL),   OSM(MOD_LGUI), _______, OSM(MOD_LALT)
+            OSM(MOD_LALT), _______, OSM(MOD_LCTL),     KC_SPC, _______, OSM(MOD_LGUI)
   )
 };
 
