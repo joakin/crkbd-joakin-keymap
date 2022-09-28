@@ -48,9 +48,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,--------------------------------------------.  ,--------------------------------------------.
       KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,    KC_CIRC, KC_AMPR, KC_ASTR, KC_MINS, KC_PLUS,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-      KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, KC_UNDS,     KC_EQL, KC_LCBR, KC_RCBR, KC_COLN, KC_SCLN,
+        KC_LT,   KC_GT, KC_LPRN, KC_LBRC, KC_LCBR,    KC_RCBR, KC_RBRC, KC_RPRN, KC_COLN, KC_SCLN,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
-      KC_BSLS, KC_PIPE,   KC_LT,   KC_GT, KC_TILD,    KC_DQUO, KC_QUOT,  KC_GRV, KC_QUES, KC_SLSH,
+      KC_TILD,  KC_GRV, KC_BSLS, KC_PIPE, KC_UNDS,     KC_EQL, KC_DQUO, KC_QUOT, KC_QUES, KC_SLSH,
   //|--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------|
 
               OSM(MOD_LALT), MO(3), OSM(MOD_LCTL),     KC_SPC, _______, OSM(MOD_LGUI)
